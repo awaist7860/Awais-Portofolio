@@ -1,0 +1,193 @@
+/*This make sure that everything is set to zero*/
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+
+/*Imported fonts and beinmg used under fairuse*/
+@font-face{
+    font-family: PopLight;
+    src: url('./fonts/Poppins-light.ttf');
+}
+
+@font-face{
+    font-family: PopRegular;
+    src: url('./fonts/Poppins-Regular.ttf');
+}
+
+@font-face{
+    font-family: LatoLight;
+    src: url('./fonts/Lato-Light.ttf');
+}
+
+@font-face{
+    font-family: LatoRegular;
+    src: url('./fonts/Lato-Regular.ttf');
+}
+
+@font-face{
+    font-family: latoBold;
+    src: url('./fonts/Lato-Bold.ttf');
+}
+
+@font-face{
+    font-family: PTSerifBold;
+    src: url('./fonts/PTSerif-Bold.ttf');
+}
+
+body{
+    font-family: LatoRegular;
+    color: grey;
+    /*background: rgba(146, 194, 242, 0.53);*/
+    background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(146, 194, 242, 0.53) 100%);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#ff3333; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.buttons{
+    min-height: 9vh;
+    display: grid;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70% 70% 70%;
+}
+
+
+#port{
+    /*grid-row: 1/3;*/
+    margin-left: 20%;
+    margin-right: 20%;
+    grid-column: 2/3;
+    align-self: center;
+    text-align: center;
+    font-family: latoBold;
+    font-size: 34px;
+    color: #4D4DFF;
+    border-style: solid;
+    border: 2px inherit;
+    border-radius: 35px;
+    
+}
+
+#name{
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    align-self: center;
+    text-align: center;
+    font-family: PTSerifBold;
+    font-size: 48px;
+    color: #4D4DFF;
+    border-style: solid;
+    border: 2px inherit;
+    border-radius: 35px;
+}
+
+#work{
+    margin-left: 15%;
+    margin-right: 15%;
+    grid-column: 2/3;
+    grid-row: 3/3;
+    align-self: center;
+    text-align: center;
+    font-family: latoBold;
+    font-size: 34px;
+    border-style: solid;
+    border: 2px inherit;
+    border-radius: 35px;
+}
+
+#wreck{
+    margin-left: 20%;
+    margin-right: 20%;
+    /*grid-column: 1/3;*/
+    grid-row: 2/3;
+    align-self: center;
+    text-align: center;
+    font-family: latoBold;
+    font-size: 34px;
+    border-style: solid;
+    border: 2px inherit;
+    border-radius: 35px;
+}
+
+
+#projects{
+    margin-left: 22%;
+    margin-right: 22%;
+    /*grid-column: 3/3;*/
+    grid-row: 2/3;
+    align-self: center;
+    text-align: center;
+    font-family: latoBold;
+    font-size: 34px;
+    border-style: solid;
+    border: 2px inherit;
+    border-radius: 35px;
+}
+
+
+/*CSS For different screen sizes*/
+
+@media only screen and (max-width:1024px) {
+    .Content{
+        text-align: center;
+    }
+    
+    .buttons{
+        display: block;
+        padding-right: 15%;
+        padding-left: 15%;
+        padding-top: 2%;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+    }
+
+    p{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-size: 40px;
+    }
+    
+    #port{
+        border-style: none;
+    }
+    
+    
+    #wreck{
+        border-style: none;
+    }
+    
+    #work{
+        border-style: none;
+    }
+
+    #projects{
+        border-style: none;
+    }
+    
+}
+
+/*
+    border-style: solid;
+    border: 2px inherit;
+    border-radius: 35px;
+*/

@@ -1,0 +1,167 @@
+/*This make sure that everything is set to zero*/
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/*Imported fonts and beinmg used under fairuse*/
+@font-face{
+    font-family: PopLight;
+    src: url('./fonts/Poppins-light.ttf');
+}
+
+@font-face{
+    font-family: PopRegular;
+    src: url('./fonts/Poppins-Regular.ttf');
+}
+
+@font-face{
+    font-family: LatoLight;
+    src: url('./fonts/Lato-Light.ttf');
+}
+
+@font-face{
+    font-family: LatoRegular;
+    src: url('./fonts/Lato-Regular.ttf');
+}
+
+@font-face{
+    font-family: latoBold;
+    src: url('./fonts/Lato-Bold.ttf');
+}
+
+@font-face{
+    font-family: PTSerifBold;
+    src: url('./fonts/PTSerif-Bold.ttf');
+}
+
+body{
+    font-family: PopLight;
+    background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #FFF5F5 0.01%, #9B9A9A 100%);
+    font-size: 18px;
+}
+
+.Content{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Nav{
+    text-align: center;
+    padding-top: 1%;
+}
+
+
+a {
+    color: inherit;
+    text-decoration:underline;
+    padding-left: 2%;
+}
+
+a:hover 
+{
+     color:#ff3333; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+
+h1{
+    font-family: latoBold;
+    font-size: 40px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+h2{
+    font-family: latoBold;
+    font-size: 30px;
+    padding-bottom: 1%;
+}
+
+p{
+    font-family: PopLight;
+    font-size: 18px;
+    padding-bottom: 1%;
+    
+}
+
+
+.SoftwareDev{
+    padding-top: 2.5%;
+    padding-bottom: 1%;
+}
+
+
+.GameDev{
+    padding-top: 2.5%;
+    padding-bottom: 1%;
+}
+
+@media (max-width: 1024px) {
+    body{
+        font-family: PopLight;
+        background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #FFF5F5 0.01%, #9B9A9A 100%);
+        font-size: 36px;
+    }
+
+    .Content{
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .Nav{
+        text-align: center;
+        padding-top: 1%;
+    }
+
+
+    a {
+        color: inherit;
+        text-decoration:underline;
+        padding-left: 2%;
+    }
+
+    a:hover 
+    {
+         color:#ff3333; 
+         text-decoration:none; 
+         cursor:pointer;  
+    }
+
+
+    h1{
+        font-family: latoBold;
+        font-size: 40px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    h2{
+        font-family: latoBold;
+        font-size: 38px;
+        padding-bottom: 1%;
+    }
+
+    p{
+        font-family: PopLight;
+        font-size: 36px;
+        padding-bottom: 1%;
+
+    }
+
+
+    .SoftwareDev{
+        padding-top: 2.5%;
+        padding-bottom: 1%;
+    }
+
+
+    .GameDev{
+        padding-top: 2.5%;
+        padding-bottom: 1%;
+    }
+}

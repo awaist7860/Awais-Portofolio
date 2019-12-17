@@ -1,0 +1,205 @@
+/*This make sure that everything is set to zero*/
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/*Imported fonts and beinmg used under fairuse*/
+@font-face{
+    font-family: PopLight;
+    src: url('./fonts/Poppins-light.ttf');
+}
+
+@font-face{
+    font-family: PopRegular;
+    src: url('./fonts/Poppins-Regular.ttf');
+}
+
+@font-face{
+    font-family: LatoLight;
+    src: url('./fonts/Lato-Light.ttf');
+}
+
+@font-face{
+    font-family: LatoRegular;
+    src: url('./fonts/Lato-Regular.ttf');
+}
+
+@font-face{
+    font-family: latoBold;
+    src: url('./fonts/Lato-Bold.ttf');
+}
+
+@font-face{
+    font-family: PTSerifBold;
+    src: url('./fonts/PTSerif-Bold.ttf');
+}
+
+body{
+    background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #CBFFCB 100%);
+    text-align: center;
+    font-family: PopLight;
+}
+
+.Nav{
+    text-align: center;
+    padding-top: 1%;
+    font-size: 18px;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+    padding-left: 2%;
+}
+
+a:hover 
+{
+     color:#ff3333; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+#WorkHeader{
+    padding-top: 1%;
+    font-family: latoBold;
+    font-size: 64px;
+    color: darkblue;
+}
+
+p{
+    font-family: PopLight;
+    font-size: 18px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+.Job1{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.Job2{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.Job3{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.Job4{
+    padding-top: 2%;
+    padding-bottom: 11%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.Photos{
+    display: block;
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2.5%;
+    margin-bottom: 5%;
+}
+
+@media (max-width: 1024px){
+    body{
+        background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #CBFFCB 100%);
+        text-align: center;
+        font-family: PopLight;
+    }
+
+    .Nav{
+        text-align: center;
+        padding-top: 1%;
+        font-size: 36px;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: underline;
+        padding-left: 2%;
+    }
+
+    a:hover 
+    {
+         color:#ff3333; 
+         text-decoration:none; 
+         cursor:pointer;  
+    }
+
+    #WorkHeader{
+        padding-top: 1%;
+        font-family: latoBold;
+        font-size: 64px;
+        color: darkblue;
+    }
+
+    p{
+        font-family: PopLight;
+        font-size: 36px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 38px;
+    }
+
+    .Job1{
+        padding-top: 2%;
+        padding-bottom: 1%;
+        padding-right: 20%;
+        padding-left: 20%;
+    }
+
+    .Job2{
+        padding-top: 2%;
+        padding-bottom: 1%;
+        padding-right: 20%;
+        padding-left: 20%;
+    }
+
+    .Job3{
+        padding-top: 2%;
+        padding-bottom: 1%;
+        padding-right: 20%;
+        padding-left: 20%;
+    }
+
+    .Job4{
+        padding-top: 2%;
+        padding-bottom: 11%;
+        padding-right: 20%;
+        padding-left: 20%;
+    }
+
+    .Photos{
+        display: block;
+        text-align: center;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 2.5%;
+        margin-bottom: 5%;
+    }
+
+
+}

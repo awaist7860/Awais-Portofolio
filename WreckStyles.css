@@ -1,0 +1,317 @@
+/*This make sure that everything is set to zero*/
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/*Imported fonts and being used under fair use*/
+@font-face{
+    font-family: PopLight;
+    src: url('./fonts/Poppins-light.ttf');
+}
+
+@font-face{
+    font-family: PopRegular;
+    src: url('./fonts/Poppins-Regular.ttf');
+}
+
+@font-face{
+    font-family: LatoLight;
+    src: url('./fonts/Lato-Light.ttf');
+}
+
+@font-face{
+    font-family: LatoRegular;
+    src: url('./fonts/Lato-Regular.ttf');
+}
+
+@font-face{
+    font-family: latoBold;
+    src: url('./fonts/Lato-Bold.ttf');
+}
+
+@font-face{
+    font-family: PTSerifBold;
+    src: url('./fonts/PTSerif-Bold.ttf');
+}
+
+body{
+    font-family: PopLight;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.5) 0%, #FFE3C6 100%);
+}
+
+/*This centers the elemts thta i want to be centered*/
+.Logo{
+    display: block;
+    padding-right: 0%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    
+}
+
+a {
+    color: inherit;
+    text-decoration:underline;
+    
+}
+
+a:hover 
+{
+     color:#ff3333; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.Nav{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.Nav a{
+    padding-left: 2%;
+}
+
+
+#AboutTitle{
+    display: block;
+    padding-right: 0%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 24px;
+}
+
+#About1{
+    display: block;
+    padding-right: 0%;
+    padding-left: 0%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: -3%;
+}
+
+.Screenshots{
+    min-height: 9vh;
+    display: grid;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100% 100%;
+}
+
+.TracklandGameplayPic{
+    text-align: center;
+}
+
+.BlockRunnerGameplayPic{
+    text-align: center;
+}
+
+#AppsHeader{
+    display: block;
+    padding-right: 0%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.Trackland{
+    text-align: center;
+}
+
+.OFTR{
+    text-align: center;
+}
+
+.Block{
+    text-align: center;
+}
+
+#trackPara{
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+}
+
+#oftrPara{
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+}
+
+#blockPara{
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+}
+
+#TechHead{
+    display: block;
+    padding-right: 0%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.Apps{
+    min-height: 9vh;
+    display: grid;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100% 100% 100%;
+}
+
+.Technologies{
+    /*min-height: 9vh;*/
+    display: grid;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100% 100%;
+}
+
+.WordLogos{
+    text-align: center;
+}
+
+.ImageLogos{
+    text-align: center;
+}
+
+
+@media (max-width: 1024px) {
+    
+    body{
+        font-family: PopLight;
+        font-size: 36px;
+    }
+    
+    .TextAbout{
+        text-align: center;
+    }
+    
+    #About1{
+        padding-right: 0%;
+        padding-left: 0%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-bottom: -3%;
+    }
+    
+    .Screenshots{
+        display:block;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .TracklandGameplayPic{
+        text-align: center;
+    }
+
+    .BlockRunnerGameplayPic{
+        text-align: center;
+    }
+    
+    .Apps{
+        display: block;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .Technologies{
+        /*min-height: 9vh;*/
+        display: block;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+    }
+    
+}
+
+@media (max-width: 640px) {
+    
+    #About1{
+        padding-right: 0%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-bottom: -3%;
+    }
+    
+    .Screenshots{
+        display:inline;
+        padding-right: 0%;
+        padding-left: 0%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .TracklandGameplay{
+        text-align: center;
+        width: 300px;
+        height: 188px;
+    }
+
+    .BlockRunnerGameplay{
+        text-align: center;
+        width: 300px;
+        height: 188px;
+    }
+    
+    .Apps{
+        display: block;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .Technologies{
+        /*min-height: 9vh;*/
+        display: block;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+    }
+    
+}
+
