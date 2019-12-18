@@ -208,6 +208,10 @@ a:hover
         font-size: 30px;
     }
     
+    .Logo{
+        text-align: center;
+    }
+    
     .TextAbout{
         text-align: center;
     }
