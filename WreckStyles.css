@@ -205,7 +205,7 @@ a:hover
     
     body{
         font-family: PopLight;
-        font-size: 36px;
+        font-size: 30px;
     }
     
     .TextAbout{
@@ -261,6 +261,11 @@ a:hover
 }
 
 @media (max-width: 640px) {
+    
+    body{
+        font-family: PopLight;
+        font-size: 30px;
+    }
     
     #About1{
         padding-right: 0%;
