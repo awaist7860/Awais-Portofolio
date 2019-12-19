@@ -39,6 +39,7 @@
 body{
     font-family: PopLight;
     background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.5) 0%, #FFE3C6 100%);
+    text-align: center;
 }
 
 /*This centers the elemts thta i want to be centered*/
@@ -206,12 +207,17 @@ a:hover
     text-align: center;
 }
 
+h1{
+    text-align: center;
+}
+
 
 @media (max-width: 1024px) {
     
     body{
         font-family: PopLight;
         font-size: 26px;
+        text-align: center;
     }
     
     footer{
@@ -266,12 +272,17 @@ a:hover
     
     .Technologies{
         /*min-height: 9vh;*/
+        text-align: center;
         display: block;
         padding-right: 5%;
         padding-left: 5%;
         padding-top: 5%;
         padding-bottom: 5%;
         margin-bottom: 5%;
+    }
+    
+    h1{
+        text-align: center;
     }
     
 }
@@ -281,6 +292,7 @@ a:hover
     body{
         font-family: PopLight;
         font-size: 26px;
+        text-align: center;
     }
     
     .Nav{
@@ -342,6 +354,10 @@ a:hover
         padding-top: 5%;
         padding-bottom: 5%;
         margin-bottom: 5%;
+    }
+    
+    h1{
+        text-align: center;
     }
     
 }
