@@ -1,2 +1,2 @@
-# Awais-Portofolio
-My Portofolio
+# Awais-Portfolio
+My Portoflio
