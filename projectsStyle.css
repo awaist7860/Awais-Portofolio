@@ -36,44 +36,49 @@
     src: url('./fonts/PTSerif-Bold.ttf');
 }
 
+/*The default font and colour for this webpage*/
 body{
     font-family: PopLight;
     background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #FFF5F5 0.01%, #9B9A9A 100%);
     font-size: 18px;
 }
 
+/*getting everything in this div in the middle*/
 .Content{
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
 }
 
+/*Getting the paddings and margins right*/
 .Nav{
     text-align: center;
     padding-top: 1%;
 }
 
+/*The loaction of the footer*/
 footer{
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
 }
 
-
+/*The style of the links that i am using*/
 a {
-    color: inherit;
-    text-decoration:underline;
+    color: inherit; /*It gets the coulor of the elemnt it is on eg. it get black if the p tag is black*/
+    text-decoration:underline;  /*underlines the links*/
     padding-left: 2%;
 }
 
+/*When the mouse is over the link*/
 a:hover 
 {
-     color:#ff3333; 
+     color:#ff3333;     /*Changes the colour*/
      text-decoration:none; 
-     cursor:pointer;  
+     cursor:pointer;    /*What the cursor is*/
 }
 
-
+/*makes the h1 bigger and changes the font*/
 h1{
     font-family: latoBold;
     font-size: 40px;
@@ -81,12 +86,14 @@ h1{
     padding-bottom: 1%;
 }
 
+/*makes the h2 bigger and changes the font*/
 h2{
     font-family: latoBold;
     font-size: 30px;
     padding-bottom: 1%;
 }
 
+/*making all the paragraphs the same*/
 p{
     font-family: PopLight;
     font-size: 18px;
@@ -94,50 +101,57 @@ p{
     
 }
 
-
+/*making a gap between the h2 and gamedev div*/
 .SoftwareDev{
     padding-top: 2.5%;
     padding-bottom: 1%;
 }
 
-
+/*making a gap with the software dev div and the bottom footer*/
 .GameDev{
     padding-top: 2.5%;
     padding-bottom: 1%;
 }
 
+/*CSS For different screen sizes*/
+/*This one is for phone screen sizes less than 1024 pixels wide*/
 @media (max-width: 1024px) {
+    /*The default font and colour for this webpage*/
     body{
         font-family: PopLight;
         background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #FFF5F5 0.01%, #9B9A9A 100%);
         font-size: 26px;
     }
 
+    /*getting everything in this div in the middle*/
     .Content{
         text-align: center;
         margin-left: 5%;
         margin-right: 5%;
     }
     
+    /*The loaction of the footer*/
     footer{
         text-align: center;
         padding-top: 2%;
         padding-bottom: 2%;
     }
 
+    /*Getting the paddings and margins right*/
     .Nav{
         text-align: center;
         padding-top: 1%;
         font-size: 24px;
     }
 
-
+    /*The style of the links that i am using*/
     a {
         color: inherit;
         text-decoration:underline;
         padding-left: 2%;
     }
 
+    /*When the mouse is over the link*/
     a:hover 
     {
          color:#ff3333; 
@@ -145,7 +159,7 @@ p{
          cursor:pointer;  
     }
 
-
+    /*makes the h1 bigger and changes the font*/
     h1{
         font-family: latoBold;
         font-size: 36px;
@@ -153,12 +167,14 @@ p{
         padding-bottom: 1%;
     }
 
+    /*makes the h2 bigger and changes the font*/
     h2{
         font-family: latoBold;
         font-size: 34px;
         padding-bottom: 1%;
     }
 
+    /*making all the paragraphs the same*/
     p{
         font-family: PopLight;
         font-size: 36px;
@@ -167,12 +183,13 @@ p{
     }
 
 
+    /*making a gap between the h2 and gamedev div*/
     .SoftwareDev{
         padding-top: 2.5%;
         padding-bottom: 1%;
     }
 
-
+    /*making a gap with the software dev div and the bottom footer*/
     .GameDev{
         padding-top: 2.5%;
         padding-bottom: 1%;

@@ -1,5 +1,6 @@
 /*This make sure that everything is set to zero*/
 *,*::before,*::after{
+    /*Getting the paddings and margins right*/
     margin: 0;
     padding: 0;
     box-sizing: border-box
@@ -42,11 +43,12 @@ body{
     text-align: center;
 }
 
-/*This centers the elemts thta i want to be centered*/
+/*This centers the elements that I want to be centered*/
 .Logo{
-    display: block;
+    display: block; /*Display in block form*/
     padding-right: 0%;
-    text-align: center;
+    text-align: center; /*Aligns the text to the centre*/
+    /*Getting the paddings and margins right*/
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -56,38 +58,42 @@ body{
 }
 
 footer{
-        text-align: center;
+     /*Getting the paddings and margins right*/
+        text-align: center; /*Aligns the text to the centre*/
         padding-top: 2%;
         padding-bottom: 2%;
     }
 
 a {
     color: inherit;
-    text-decoration:underline;
+    text-decoration:underline; /*Underlines the text*/
     
 }
 
 a:hover 
 {
      color:#ff3333; 
-     text-decoration:none; 
+     text-decoration:none; /*No text decoration*/
      cursor:pointer;  
 }
 
 .Nav{
+     /*Getting the paddings and margins right*/
     text-align: center;
     padding-top: 1%;
 }
 
 .Nav a{
+     /*Getting the paddings and margins right*/
     padding-left: 2%;
 }
 
 
 #AboutTitle{
-    display: block;
-    padding-right: 0%;
-    text-align: center;
+    display: block; /*Displays in block form*/
+    padding-right: 0%; /*This section from here puts the button in the right position*/
+    /*Getting the paddings and margins right*/
+    text-align: center; /*Aligns the text to the centre*/
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -95,7 +101,8 @@ a:hover
 }
 
 #About1{
-    display: block;
+    display: block; /*Displays in block form*/
+    /*Getting the paddings and margins right*/
     padding-right: 0%;
     padding-left: 0%;
     text-align: center;
@@ -107,77 +114,89 @@ a:hover
     padding-bottom: -3%;
 }
 
+/*setting up the screenshots div into a grid layout for the elements inside it*/
 .Screenshots{
     min-height: 9vh;
-    display: grid;
+    display: grid; /*Display in Grid form*/
+    /*Getting the paddings and margins right*/
     padding-right: 5%;
     padding-left: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
     margin-bottom: 5%;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100% 100%;
+    grid-template-columns: 1fr 1fr; /*3 columns*/
+    grid-template-rows: 100% 100%; /*2 rows at 100% size*/
 }
 
 .TracklandGameplayPic{
-    text-align: center;
+    text-align: center; /*Aligns the text to the centre*/
 }
 
 .BlockRunnerGameplayPic{
-    text-align: center;
+    text-align: center; /*Aligns the text to the centre*/
 }
 
 #AppsHeader{
-    display: block;
+    display: block; /*Displays in block form*/
+    /*Getting the paddings and margins right*/
     padding-right: 0%;
-    text-align: center;
+    text-align: center; /*Aligns the text to the centre*/
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
 .Trackland{
-    text-align: center;
+    text-align: center; /*Aligns the text to the centre*/
 }
 
 .OFTR{
-    text-align: center;
+    text-align: center; /*Aligns the text to the centre*/
 }
 
 .Block{
-    text-align: center;
+    text-align: center; /*Aligns the text to the centre*/
 }
 
 #trackPara{
+    /*Getting the paddings and margins right*/
     padding-left: 15%;
     padding-right: 15%;
+    /*Aligns the text to the centre*/
     text-align: center;
 }
 
 #oftrPara{
+    /*Getting the paddings and margins right*/
     padding-left: 15%;
     padding-right: 15%;
+    /*Aligns the text to the centre*/
     text-align: center;
 }
 
 #blockPara{
+    /*Getting the paddings and margins right*/
     padding-left: 15%;
     padding-right: 15%;
+    /*Aligns the text to the centre*/
     text-align: center;
 }
 
 #TechHead{
-    display: block;
-    padding-right: 0%;
-    text-align: center;
+    display: block; /*Displays in block form*/
+    padding-right: 0%; /*This section from here puts the button in the right position*/
+    /*Getting the paddings and margins right*/
+    text-align: center; /*Aligns the text to the centre*/
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
+/*setting up the apps div into a grid layout for the elements inside it*/
 .Apps{
     min-height: 9vh;
-    display: grid;
+    display: grid; /*Displays it in a grid layout*/
+    /*Getting the paddings and margins right*/
     padding-right: 5%;
     padding-left: 5%;
     padding-top: 5%;
@@ -187,9 +206,11 @@ a:hover
     grid-template-rows: 100% 100% 100%;
 }
 
+/*setting up the technologies div into a grid layout for the elements inside it*/
 .Technologies{
     /*min-height: 9vh;*/
-    display: grid;
+    display: grid;/*Display in grid form*/
+    /*Getting the paddings and margins right*/
     padding-right: 5%;
     padding-left: 5%;
     padding-top: 5%;
@@ -200,44 +221,47 @@ a:hover
 }
 
 .WordLogos{
-    text-align: center;
+    text-align: center; /*Aligns the text to the centre*/
 }
 
 .ImageLogos{
-    text-align: center;
+    text-align: center; /*Aligns the text to the centre*/
 }
 
 h1{
-    text-align: center;
+    text-align: center; /*Aligns the text to the centre*/
 }
 
-
+/*CSS For different screen sizes*/
+/*This one is for phone screen sizes less than 1024 pixels wide*/
 @media (max-width: 1024px) {
     
     body{
         font-family: PopLight;
         font-size: 26px;
-        text-align: center;
+        text-align: center; /*Aligns the text to the centre*/
     }
     
     footer{
-        text-align: center;
+        text-align: center; /*Aligns the text to the centre*/
+        /*Getting the paddings and margins right*/
         padding-top: 2%;
         padding-bottom: 2%;
     }
     
     .Logo{
-        text-align: center;
+        text-align: center; /*Aligns the text to the centre*/
     }
     
     .TextAbout{
-        text-align: center;
+        text-align: center; /*Aligns the text to the centre*/
     }
     
     #About1{
+        /*Getting the paddings and margins right*/
         padding-right: 0%;
         padding-left: 0%;
-        text-align: center;
+        text-align: center; /*Aligns the text to the centre*/
         margin-left: auto;
         margin-right: auto;
         width: 50%;
@@ -245,7 +269,8 @@ h1{
     }
     
     .Screenshots{
-        display:block;
+        display:block;/*Display in block form*/
+        /*Getting the paddings and margins right*/
         padding-right: 5%;
         padding-left: 5%;
         padding-top: 5%;
@@ -254,15 +279,16 @@ h1{
     }
     
     .TracklandGameplayPic{
-        text-align: center;
+        text-align: center; /*Aligns the text to the centre*/
     }
 
     .BlockRunnerGameplayPic{
-        text-align: center;
+        text-align: center; /*Aligns the text to the centre*/
     }
     
     .Apps{
-        display: block;
+        display: block;/*Display in block form*/
+        /*Getting the paddings and margins right*/
         padding-right: 5%;
         padding-left: 5%;
         padding-top: 5%;
@@ -272,8 +298,9 @@ h1{
     
     .Technologies{
         /*min-height: 9vh;*/
-        text-align: center;
-        display: block;
+        text-align: center; /*Aligns the text to the centre*/
+        /*Getting the paddings and margins right*/
+        display: block; /*Display in block from*/
         padding-right: 5%;
         padding-left: 5%;
         padding-top: 5%;
@@ -282,17 +309,19 @@ h1{
     }
     
     h1{
-        text-align: center;
+        text-align: center; /*Aligns the text to the centre*/
     }
     
 }
 
+/*CSS For different screen sizes*/
+/*This one is for phone screen sizes less than 640 pixels wide*/
 @media (max-width: 640px) {
     
     body{
         font-family: PopLight;
         font-size: 26px;
-        text-align: center;
+        text-align: center; /*Aligns the text to the centre*/
     }
     
     .Nav{
@@ -300,14 +329,15 @@ h1{
     }
     
     footer{
-        text-align: center;
+        text-align: center; /*Aligns the text to the centre*/
         padding-top: 2%;
         padding-bottom: 2%;
     }
     
     #About1{
         padding-right: 0%;
-        text-align: center;
+        text-align: center; /*Aligns the text to the centre*/
+        /*Getting the paddings and margins right*/
         margin-left: auto;
         margin-right: auto;
         width: 50%;
@@ -317,7 +347,8 @@ h1{
     }
     
     .Screenshots{
-        display:inline;
+        display:inline;/*Display in inline form*/
+        /*Getting the paddings and margins right*/
         padding-right: 0%;
         padding-left: 0%;
         padding-top: 5%;
@@ -325,20 +356,22 @@ h1{
         margin-bottom: 5%;
     }
     
+    /*Changing the */
     .TracklandGameplay{
-        text-align: center;
+        text-align: center; /*Aligns the text to the centre*/
         width: 300px;
         height: 188px;
     }
 
     .BlockRunnerGameplay{
-        text-align: center;
+        text-align: center; /*Aligns the text to the centre*/
         width: 300px;
         height: 188px;
     }
     
     .Apps{
-        display: block;
+        display: block;/*Display in block form*/
+        /*Getting the paddings and margins right*/
         padding-right: 5%;
         padding-left: 5%;
         padding-top: 5%;
@@ -348,7 +381,8 @@ h1{
     
     .Technologies{
         /*min-height: 9vh;*/
-        display: block;
+        display: block;/*Display in block form*/
+        /*Getting the paddings and margins right*/
         padding-right: 5%;
         padding-left: 5%;
         padding-top: 5%;
@@ -357,7 +391,7 @@ h1{
     }
     
     h1{
-        text-align: center;
+        text-align: center; /*Aligns the text to the centre*/
     }
     
 }
