@@ -29,6 +29,17 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+/*My css styles*/
+#skillsList {
+    list-style-type: disc;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    list-style-position: inside;
+    
+}
+
 body {
 	line-height: 1;
 }
