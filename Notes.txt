@@ -1,0 +1,73 @@
+Software used at Newbridge MAT
+
+SCCM
+Microsft Configuration Manger
+Software Center
+Active Directory abd Computers
+RSAT
+DHCP
+Print Managment
+MicrosfT Office
+Microsft Exchange
+Entra
+365 Admin Center
+Microsoft Intune admin Center
+Apple School Manager
+JAMF
+Civica Parago
+Freshdesk ticketing system
+Showbie
+Apple Classroom
+Ruckus Commscope
+Paper Cut
+Dell Switches GUIs - DELL EMC OPENMANAGE
+AltoDigital Services for Xerox Printer
+Arbor
+Putty
+CMD
+Powershell
+Services
+1Password
+PRTG Monitoring Software
+Atlas Learning Training Courses
+Trilby TV
+3CX Phone System Managment Console
+Windows 10 and 11
+MacOS
+iPadOS
+IOS
+Apple TV OS
+Microsoft Power Automate
+Onedrive
+Apple iCloud
+Smoothwall Firewall managment
+
+
+Hardware used at Newbridge MAT
+
+iPads
+Windows Laptops
+Windows Dekstops
+Mac Minis
+Dell EMC servers and Switches
+Apple TVs
+Rukus AP's
+Smoothwall Firewall
+
+
+Projects done at Newbridge MAT
+
+Port mapping
+Setup an entire IT Suite
+Manually install smoothwall firewall on machines
+Manage Assets using Parago
+Installing Paxton Clietns on managers devices
+Check DHCP Scope
+Recycle old IT stock
+Setting up AP's
+Give every classroom and apple TV box
+Update class lists in Apple schoold manager and JAMF
+Rename all PC's
+Populate students details in Arbor
+
+
